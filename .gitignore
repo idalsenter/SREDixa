@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+infra/node_modules/
+infra/.cache/
+infra/.env
+infra/.env.local
+infra/.env.development
+infra/.env.test
+infra/.env.production
+infra/.env.staging
