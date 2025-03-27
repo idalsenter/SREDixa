@@ -10,7 +10,7 @@ const ns = new k8s.core.v1.Namespace("nginx-namespace", { metadata: { name: "loc
 const appLabels = { app: "nginx" };
 
 // Load the HTML content from the src directory
-const htmlContent = fs.readFileSync(path.join(__dirname, "src/index.html"), "utf-8");
+const htmlContent = fs.readFileSync(path.join(__dirname, "../src/index.html"), "utf-8");
 
 // Create a ConfigMap for the static "Hello World" page
 const htmlConfigMap = new k8s.core.v1.ConfigMap("nginx-html", {

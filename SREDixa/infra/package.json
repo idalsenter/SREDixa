@@ -1,0 +1,17 @@
+{
+  "name": "SREDixa",
+  "version": "1.0.0",
+  "description": "Pulumi project for deploying NGINX on Kubernetes",
+  "main": "index.ts",
+  "scripts": {
+    "start": "pulumi up",
+    "destroy": "pulumi destroy"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/kubernetes": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}

@@ -4,7 +4,7 @@ description: Pulumi project for deploying NGINX on Kubernetes
 
 config:
   namespace: local
-  replicas: 3
+  replicas: 5
   maxReplicas: 9
   cpuUtilization: 50
   ingressHost: nginx.dev.local
